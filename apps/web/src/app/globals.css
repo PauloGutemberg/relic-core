@@ -1,0 +1,48 @@
+:root {
+  /* Base */
+  --bg: #0b0d10;          /* fundo principal */
+  --surface: #10141a;     /* blocos/toolbar */
+  --surface2: #0f1318;    /* cards */
+  --border: rgba(255, 255, 255, 0.10);
+
+  /* Texto */
+  --text: rgba(255, 255, 255, 0.92);
+  --muted: rgba(255, 255, 255, 0.70);
+  --subtle: rgba(255, 255, 255, 0.55);
+
+  /* Acento (discreto) */
+  --accent: #67e8f9;      /* ciano suave */
+  --accent2: #a78bfa;     /* roxo suave */
+
+  /* Sombra + raio */
+  --shadow: 0 10px 30px rgba(0,0,0,0.35);
+  --radius: 16px;
+
+  /* Layout */
+  --container: 1120px;
+  --gutter: 18px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 800px at 20% 0%, rgba(103,232,249,0.08), transparent 55%),
+              radial-gradient(900px 600px at 85% 20%, rgba(167,139,250,0.06), transparent 60%),
+              var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  letter-spacing: -0.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}

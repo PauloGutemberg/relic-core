@@ -1,0 +1,11 @@
+{
+  "name": "reli-core",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev:api & npm run dev:web",
+    "dev:api": "npm run -w apps/api dev",
+    "dev:web": "npm run -w apps/web dev",
+    "build": "npm run -w apps/api build && npm run -w apps/web build"
+  }
+}
