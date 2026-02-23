@@ -1,0 +1,7 @@
+/* [project]/apps/web/src/components/container/Container.module.css [app-client] (css) */
+.Container-module__bndp1q__container {
+  width: min(var(--container), calc(100% - (var(--gutter) * 2)));
+  margin-inline: auto;
+}
+
+/*# sourceMappingURL=apps_web_src_components_container_Container_module_css_bad6b30c._.single.css.map*/

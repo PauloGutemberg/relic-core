@@ -1,0 +1,36 @@
+/* [project]/apps/web/src/app/globals.css [app-client] (css) */
+:root {
+  --bg: #0b0d10;
+  --surface: #10141a;
+  --surface2: #0f1318;
+  --border: #ffffff1a;
+  --text: #ffffffeb;
+  --muted: #ffffffb3;
+  --subtle: #ffffff8c;
+  --accent: #67e8f9;
+  --accent2: #a78bfa;
+  --shadow: 0 10px 30px #00000059;
+  --radius: 16px;
+  --container: 1120px;
+  --gutter: 18px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 20% 0%, #67e8f914, transparent 55%), radial-gradient(900px 600px at 85% 20%, #a78bfa0f, transparent 60%), var(--bg);
+  color: var(--text);
+  letter-spacing: -.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+}
+
+h1, h2, h3 {
+  letter-spacing: -.02em;
+}
+
+/*# sourceMappingURL=apps_web_src_app_globals_ea8a3ee7.css.map*/

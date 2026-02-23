@@ -1,0 +1,119 @@
+/* [project]/apps/web/src/app/(public)/home/styles/HomePage.module.css [app-client] (css) */
+.HomePage-module__3sojGq__page {
+  min-height: 100vh;
+}
+
+.HomePage-module__3sojGq__header {
+  padding: 28px 0 14px;
+}
+
+.HomePage-module__3sojGq__headerRow {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  display: flex;
+}
+
+.HomePage-module__3sojGq__brand {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.HomePage-module__3sojGq__title {
+  margin: 0;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.1;
+}
+
+.HomePage-module__3sojGq__subtitle {
+  color: var(--muted);
+  max-width: 62ch;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.HomePage-module__3sojGq__meta {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.HomePage-module__3sojGq__badge {
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: #ffffff0a;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.HomePage-module__3sojGq__toolbar {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: #ffffff08;
+  margin-top: 16px;
+  padding: 12px;
+}
+
+.HomePage-module__3sojGq__toolbarRow {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  display: grid;
+}
+
+@media (min-width: 760px) {
+  .HomePage-module__3sojGq__toolbarRow {
+    grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(160px, .6fr));
+    align-items: center;
+  }
+}
+
+.HomePage-module__3sojGq__toolbarRow > * {
+  z-index: 0;
+  position: relative;
+}
+
+.HomePage-module__3sojGq__input, .HomePage-module__3sojGq__select {
+  border: 1px solid var(--border);
+  width: 100%;
+  color: var(--text);
+  background: #00000040;
+  border-radius: 12px;
+  outline: none;
+  padding: 10px 12px;
+}
+
+.HomePage-module__3sojGq__input {
+  width: 95%;
+  margin-right: auto;
+}
+
+.HomePage-module__3sojGq__select {
+  appearance: none;
+  background-image: linear-gradient(45deg, #0000 50%, #ffffff80 50%), linear-gradient(135deg, #ffffff80 50%, #0000 50%);
+  background-position: calc(100% - 16px), calc(100% - 11px);
+  background-repeat: no-repeat;
+  background-size: 5px 5px, 5px 5px;
+  padding-right: 32px;
+}
+
+.HomePage-module__3sojGq__input::placeholder {
+  color: #ffffff73;
+}
+
+.HomePage-module__3sojGq__input:focus, .HomePage-module__3sojGq__select:focus {
+  border-color: #67e8f973;
+  box-shadow: 0 0 0 3px #67e8f91f;
+}
+
+.HomePage-module__3sojGq__main {
+  padding: 16px 0 34px;
+}
+
+/*# sourceMappingURL=apps_web_src_app_%28public%29_home_styles_HomePage_module_css_bad6b30c._.single.css.map*/

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { ItemCard } from "../../src/features/home/components/ItemCard";
+import { ItemCard } from "@/app/(public)/home/components/ItemCard";
 
 jest.mock("next/image", () => ({
   __esModule: true,

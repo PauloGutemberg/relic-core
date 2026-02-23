@@ -1,0 +1,20 @@
+/* [project]/apps/web/src/app/(public)/home/styles/CollectionGrid.module.css [app-client] (css) */
+.CollectionGrid-module__IwoK7G__grid {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 14px;
+  display: grid;
+}
+
+@media (min-width: 560px) {
+  .CollectionGrid-module__IwoK7G__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .CollectionGrid-module__IwoK7G__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/*# sourceMappingURL=apps_web_src_app_%28public%29_home_styles_CollectionGrid_module_css_bad6b30c._.single.css.map*/

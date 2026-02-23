@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { CollectionGrid } from "../../src/features/home/components/CollectionGrid";
+import { CollectionGrid } from "@/app/(public)/home/components/CollectionGrid";
 import { itemsFixture } from "./fixtures";
 
 jest.mock("next/image", () => ({

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/apps/web/src/app/(public)/home/styles/CollectionGrid.module.css"],"sourcesContent":[".grid {\n  display: grid;\n  gap: 14px;\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n\n@media (min-width: 560px) {\n  .grid {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n}\n\n@media (min-width: 980px) {\n  .grid {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;EACE;;;;;AAKF;EACE"}}]
+}

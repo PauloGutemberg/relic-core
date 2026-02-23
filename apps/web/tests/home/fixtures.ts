@@ -1,4 +1,4 @@
-import type { ItemListDTO } from "../../src/features/home/types";
+import type { ItemListDTO } from "@/lib/item-list";
 
 export const itemsFixture: ItemListDTO[] = [
   {

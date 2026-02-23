@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { HomeFilters } from "../../src/features/home/components/HomeFilters";
+import { HomeFilters } from "@/app/(public)/home/components/HomeFilters";
 import { itemsFixture } from "./fixtures";
 
 jest.mock("next/image", () => ({

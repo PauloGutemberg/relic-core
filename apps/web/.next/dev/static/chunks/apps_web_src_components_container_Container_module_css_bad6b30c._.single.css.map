@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/apps/web/src/components/container/Container.module.css"],"sourcesContent":[".container {\n  width: min(var(--container), calc(100% - (var(--gutter) * 2)));\n  margin-inline: auto;\n}\n"],"names":[],"mappings":"AAAA"}}]
+}

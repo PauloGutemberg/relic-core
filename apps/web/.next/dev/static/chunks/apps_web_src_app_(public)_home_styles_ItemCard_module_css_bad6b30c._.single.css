@@ -1,0 +1,87 @@
+/* [project]/apps/web/src/app/(public)/home/styles/ItemCard.module.css [app-client] (css) */
+.ItemCard-module__kBtxmq__link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.ItemCard-module__kBtxmq__card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #ffffff08;
+  transition: transform .14s, border-color .14s, box-shadow .14s;
+  overflow: hidden;
+  box-shadow: 0 8px 22px #00000042;
+}
+
+.ItemCard-module__kBtxmq__imageWrap {
+  aspect-ratio: 16 / 9;
+  background: #ffffff0a;
+  width: 100%;
+  position: relative;
+}
+
+.ItemCard-module__kBtxmq__image {
+  object-fit: cover;
+  transition: transform .18s;
+  transform: scale(1.01);
+}
+
+.ItemCard-module__kBtxmq__body {
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 12px 14px;
+  display: flex;
+}
+
+.ItemCard-module__kBtxmq__title {
+  color: var(--text);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.ItemCard-module__kBtxmq__desc {
+  color: var(--muted);
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ItemCard-module__kBtxmq__link:hover .ItemCard-module__kBtxmq__card {
+  border-color: #67e8f959;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px #00000061;
+}
+
+.ItemCard-module__kBtxmq__link:hover .ItemCard-module__kBtxmq__image {
+  transform: scale(1.05);
+}
+
+.ItemCard-module__kBtxmq__link:focus-visible .ItemCard-module__kBtxmq__card {
+  outline-offset: 2px;
+  outline: 3px solid #67e8f938;
+}
+
+.ItemCard-module__kBtxmq__backLink, .ItemCard-module__kBtxmq__backLink:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.ItemCard-module__kBtxmq__backLink:hover {
+  color: #ffffffd9;
+  text-decoration: underline;
+}
+
+.ItemCard-module__kBtxmq__backLink:focus-visible {
+  outline-offset: 2px;
+  border-radius: 10px;
+  outline: 3px solid #67e8f938;
+}
+
+/*# sourceMappingURL=apps_web_src_app_%28public%29_home_styles_ItemCard_module_css_bad6b30c._.single.css.map*/
